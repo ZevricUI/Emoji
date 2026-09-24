@@ -14,7 +14,7 @@ const https = require("https");
 // CONFIG
 // ==============================
 
-const TOKEN = "MTU1MjgwNzkwMTUzNjcxNDg2Mg.GFKEeF.6SBogNoUppJKs2YhGaXf3ebmJADc2Db9RlW_rs";
+const TOKEN = process.env.DISCORD_TOKEN;
 
 const CLIENT_ID = "1552807901536714862";
 const GUILD_ID = "1424741330315378700";
