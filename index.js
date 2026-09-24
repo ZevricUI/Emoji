@@ -35,12 +35,12 @@ const commands = [
     new SlashCommandBuilder()
         .setName("massemoji")
         .setDescription("Add multiple custom emojis to the server.")
-        .setStringOption(option =>
-            option
-                .setName("emojis")
-                .setDescription("Custom emojis separated by spaces")
-                .setRequired(true)
-        )
+       .addStringOption(option =>
+    option
+        .setName("emojis")
+        .setDescription("Custom emojis separated by spaces")
+        .setRequired(true)
+)
         .setDefaultMemberPermissions(
             PermissionFlagsBits.ManageGuildExpressions.toString()
         )
