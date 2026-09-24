@@ -14,7 +14,7 @@ const https = require("https");
 // CONFIG
 // ==============================
 
-const TOKEN = "PASTE_YOUR_NEW_BOT_TOKEN_HERE";
+const TOKEN = "MTU1MjgwNzkwMTUzNjcxNDg2Mg.GFKEeF.6SBogNoUppJKs2YhGaXf3ebmJADc2Db9RlW_rs";
 
 const CLIENT_ID = "1552807901536714862";
 const GUILD_ID = "1424741330315378700";
