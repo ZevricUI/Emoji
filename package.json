@@ -1,0 +1,12 @@
+{
+  "name": "zehub-mass-emoji",
+  "version": "1.0.0",
+  "description": "ZeHub Discord Mass Emoji Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1"
+  }
+}
